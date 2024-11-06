@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import com.demo.bankapp.exception.UserNotFoundException;
 import com.demo.bankapp.model.User;
 import com.demo.bankapp.repository.UserRepository;
-import c:om.demo.bankapp.service.abstractions.IUserService;
+import com.demo.bankapp.service.abstractions.IUserService;
 
 @Service
 public class UserService implements IUserService, UserDetailsService {
