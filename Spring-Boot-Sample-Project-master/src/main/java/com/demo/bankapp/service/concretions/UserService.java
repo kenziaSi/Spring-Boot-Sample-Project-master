@@ -14,13 +14,14 @@ import org.springframework.stereotype.Service;
 import com.demo.bankapp.exception.UserNotFoundException;
 import com.demo.bankapp.model.User;
 import com.demo.bankapp.repository.UserRepository;
-import com.demo.bankapp.service.abstractions.IUserService;
+import c:om.demo.bankapp.service.abstractions.IUserService;
 
 @Service
 public class UserService implements IUserService, UserDetailsService {
 
 	private UserRepository repository;
 	private PasswordEncoder passwordEncoder;
+	system.out.println("for Test");
 
 	@Autowired
 	public UserService(UserRepository repository, PasswordEncoder passwordEncoder) {
